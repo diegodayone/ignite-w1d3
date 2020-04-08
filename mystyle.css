@@ -1,0 +1,28 @@
+* {
+    font-family: 'Roboto', sans-serif;
+    /* font-family: 'Courier New', Courier, monospace; */
+}
+
+ul {
+    background: pink;
+}
+
+input {
+    padding: 10px;
+    background: gray;
+    color: darkblue;
+    border:1px solid blue;
+}
+
+img {
+    width: 25%;
+}
+
+ol li {
+    font-style: italic;
+    font-size:50px;
+}
+
+input[type=password] {
+    background-color: brown;
+}

@@ -3,11 +3,37 @@
 <head>
     <!-- CONFIGURATION like title, css, metadata, scripts -->
     <title>This is our page</title>
+    <style>
+        div p {
+            font-weight: bold;
+            border: 1px solid green;
+        }
+        
+        ul {
+            background: red;
+        }
+
+        body{
+            background-image: linear-gradient(120deg, #d4fc79 0%, #96e6a1 100%);
+        } 
+
+        div{
+            background-image: linear-gradient(19deg, #21D4FD 0%, #B721FF 100%);
+        }
+            
+        </style>
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="mystyle.css" />
 </head>
 
-<body>
+<body >
     <!-- CONTENT OF OUR PAGE -->
-    <h1>Let's do this recap together!</h1>
+    <h1 style="color: red; margin-top: 100px; margin-bottom: 100px;">Let's do this recap together!</h1>
+
+    <div style="font-size:24px; margin: 25px; padding: 25px; border: 8px solid rgb(15, 16, 19); background-color: gold;">
+        <p style="font-size:1.2em;">Hey i'm a simple box!</p>
+        <p style="font-size:0.9em">Second child</p>
+    </div>
 
     <p>In which we can write whatever we like. The paragraph will take the whole line for itself</p>
     <span>I'll take as less space as possible</span>
@@ -37,7 +63,7 @@
 
 
     <a href="https://strive.school" target="_blank">
-        <img src="images/LOGO.jpg" alt="the image is not available" />
+        <img style="border: 10px solid black; border-radius: 50px;" src="images/LOGO.jpg" alt="the image is not available" />
     </a>
 
   
